@@ -1,0 +1,55 @@
+/* styles.css */
+
+:root {
+    --main-bg-color: #f9f9f9;
+    --tips-bg-color: #e3e3e3;
+    --text-color: #333;
+    --header-overlay: rgba(0, 0, 0, 0.6);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: var(--main-bg-color);
+    margin: 0;
+}
+
+.header {
+    background: linear-gradient(var(--header-overlay), var(--header-overlay)), url('https://wallpaperaccess.com/full/2848059.jpg') center/cover;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.page-heading h1, .page-heading .subheading {
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+.tips-section {
+    padding: 15px;
+    background-color: var(--tips-bg-color);
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.youtube-video {
+    height: 500px;
+    width: 1000;
+}
+
+.snake-game {
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--tips-bg-color);
+    color: white;
+    margin-top: 20px;
+}
